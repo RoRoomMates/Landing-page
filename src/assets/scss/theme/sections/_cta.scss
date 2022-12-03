@@ -13,7 +13,8 @@
 	background-image: url(../../../images/cta-illustration.svg);
 	background-repeat: no-repeat;
     background-size: cover;
-    background-position: right bottom;    
+    background-position: right bottom; 
+    border-radius: 25px;
 }
 
 @include media( '>medium' ) {
@@ -21,7 +22,7 @@
 .cta {
 
     .form-input {
-        min-width: 280px;
+        min-width: 480px;
     }
 }    
 
