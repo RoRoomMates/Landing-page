@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'TODO1',
+    paragraph: 'TODO2'
   };
 
   return (
@@ -73,7 +73,9 @@ const FeaturesSplit = ({
                 Problem
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Finding a new place to live is challenging. Even more so if you are coming from a small town or village to a big city and you have limited resources and lack of a social network. 
+                —
+                Have you ever had roommates not to your liking? Either too messy or too demanding or just not having the right chemistry?
                   </p>
               </div>
               <div className={
@@ -83,7 +85,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/roommates-problems.jpg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -99,7 +101,9 @@ const FeaturesSplit = ({
                   Solution
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Our solution helps you find a roommate or a place to live.
+                —
+                Build your RoomMate profile along with mandatory characteristics for your roommate, for example no smokers, pets allowed, must be tidy. Start the interviews!
                   </p>
               </div>
               <div className={
@@ -109,7 +113,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/interview.png')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -125,7 +129,11 @@ const FeaturesSplit = ({
                   Differentiation
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Our solution is specialized on finding roommates based on criteria relevant to each user.
+                —
+                It will be integrated with various universities for up to date vacancies. We can build trust based on this kind of partnership.
+                —
+                It will allow chatting for matches or roommate candidates for a direct insight on their personality.
                   </p>
               </div>
               <div className={
@@ -135,7 +143,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/meet.jpg')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
