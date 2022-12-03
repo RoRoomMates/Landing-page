@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'TODO1',
-    paragraph: 'TODO2'
+    title: 'There\'s no place like home',
+    paragraph: 'Where and how you live is the most important thing'
   };
 
   return (
