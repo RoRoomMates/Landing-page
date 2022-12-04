@@ -3,6 +3,7 @@ import { useLocation, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
+import { hotjar } from 'react-hotjar';
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
@@ -12,6 +13,9 @@ import Home from './views/Home';
 
 // Initialize Google Analytics
 ReactGA.initialize('UA-217271823-2');
+
+// Initialize Hotjar
+hotjar.initialize('3274870');
 
 const trackPage = page => {
   ReactGA.set({ page });
