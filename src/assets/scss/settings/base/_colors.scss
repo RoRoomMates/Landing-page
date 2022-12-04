@@ -8,20 +8,20 @@ $palette: (
 		3: #717D86
 	),
 	dark: (
-		1: #151719,
-		2: #25282C,
-		3: #33363A
+		1: #292929,
+		2: #3b3b3b,
+		3: #6c588a
 	),
 	primary: (
-		1: #6163FF,
-		2: #ACADFF,
-		3: #5658DD,
-		4: #E9E9FF
+		1: #6c588a,
+		2: #292929,
+		3: #6c588a,
+		4: #f6860f
  	),
 	secondary: (
-		1: #24E5AF,
+		1: #73EFCC,
 		2: #73EFCC,
-		3: #1CB68B,
+		3: #6c588a,
 		4: #D2F9EE
 	),
 	alert: (
@@ -38,7 +38,7 @@ $color: (
 	high-contrast: 			get-color(light, 1),
 	mid-contrast: 			get-color(light, 2),
 	low-contrast: 			get-color(light, 3),
-	primary:				get-color(primary, 3),
+	primary:				get-color(primary, 1),
 	secondary:				get-color(secondary, 1),
 	error:					get-color(alert, error),
 	warning:				get-color(alert, warning),
@@ -59,13 +59,13 @@ $border--color: (
 
 // Icons: fill color
 $icon--color: (
-	hamburger:				get-color(light, 2),			// hamburger icon
+	hamburger:				get-color(light, 1),			// hamburger icon
 	accordion:				get-color(primary, 1),			// accordion icon
 	social: 				get-color(primary, 1),			// social icons
-	social-hover: 			get-color(primary, 2),			// social icons (:hover)
+	social-hover: 			get-color(primary, 1),			// social icons (:hover)
 	modal:					get-color(light, 3),			// modal icon
 	modal-hover:			get-color(light, 2),			// modal icon (:hover)
-    news-more:			    get-color(primary, 2),		// news - read more link arrow    
+    news-more:			    get-color(primary, 1),		// news - read more link arrow    
 	// ↓ Inverted colors
 	hamburger-inverse:		get-color(dark, 2),				// hamburger icon
 	accordion-inverse:		get-color(primary, 1),			// accordion icon
