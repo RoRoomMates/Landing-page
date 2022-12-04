@@ -107,14 +107,22 @@ textarea.form-input {
 	height: $button-form-sm--height;
 }
 
+form input[type="submit"] { display: none;}
+
 .has-icon-left,
 .has-icon-right {
 	position: relative;
 
 	svg {
-		pointer-events: none;
 		position: absolute;
 		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	button {
+		position: absolute;
+		top: 50%;
+		right: 2%;
 		transform: translateY(-50%);
 	}
 }
@@ -127,10 +135,18 @@ textarea.form-input {
 		+ svg {
 			left: $form--padding-h - $button-form--border-width;
 		}
+
+		+ button {
+			left: $form--padding-h - $button-form--border-width;
+		}
 	}
 
 	.form-input-sm {
 		padding-left: ($form-sm--padding-h - $button-form--border-width) * 2 + 16;
+
+		+ button {
+			left: $form--padding-h - $button-form--border-width;
+		}
 
 		+ svg {
 			left: $form-sm--padding-h - $button-form--border-width;

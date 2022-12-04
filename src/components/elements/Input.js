@@ -86,7 +86,7 @@ const Input = ({
           placeholder={placeholder}
           rows={type === 'textarea' ? rows : null}
         />
-        {children}
+          {children}
       </div>
       {hint && <FormHint status={status}>{hint}</FormHint>}
     </>
