@@ -15,7 +15,7 @@ import Home from './views/Home';
 ReactGA.initialize('UA-217271823-2');
 
 // Initialize Hotjar
-hotjar.initialize('2775588');
+hotjar.initialize('3274870');
 
 const trackPage = page => {
   ReactGA.set({ page });
