@@ -6,7 +6,7 @@ import Input from './Input';
 import useGaEventsTracker from './useGaEventsTracker';
 function ContactForm() {
   const [state, handleSubmit] = useForm("xgeqgwll");
-  const GAEventsTracker = useGaEventsTracker("External Links");
+  const GAEventsTracker = useGaEventsTracker("Conversions");
 
   if (state.succeeded) {
       GAEventsTracker("clicked");
@@ -17,8 +17,8 @@ function ContactForm() {
   
   return (
       <form onSubmit={handleSubmit}>
-        <Input  onClick={e => GAEventsTracker("clicked")} id="email" type="email" name='email' label="Subscribe" labelHidden hasIcon="right" placeholder="Your email address">
-          <button type='submit' className="button button-primary button-sm mr-0" onClick={e => GAEventsTracker("clicked")}>
+        <Input  id="email" type="email" name='email' label="Subscribe" labelHidden hasIcon="right" placeholder="Your email address">
+          <button type='submit' className="button button-primary button-sm mr-0">
             Join!
           </button>
         </Input>
